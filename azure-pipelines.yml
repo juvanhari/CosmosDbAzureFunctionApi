@@ -15,7 +15,7 @@ steps:
     azureSubscription: 'Free Trial(4ab364d8-419c-4106-a522-867d448394f7)'
     command: 'build'
     projects: '**/*.csproj'
-    arguments: '--output $(Build.BinariesDirectory}/publish_output --configuration Release'
+    arguments: '--output $(Build.BinariesDirectory)/publish_output --configuration Release'
 
 - task: ArchiveFiles@2
   inputs:
